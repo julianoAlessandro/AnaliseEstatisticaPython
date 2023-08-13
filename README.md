@@ -1,7 +1,7 @@
 # AnaliseEstatisticaPython
 Projeto realizado com o auxílio do meu orientador Mateus Guilherme Fuini
 
-<body>
+
     <h1>Iniciação Científica👨‍🎓</h1>
    
     <h2><b>Título do Projeto:</b><i>Explorando Padrões do Comércio Exterior da região de Itapira:Uma análise Baseada em Dados.</i></h2>
@@ -82,5 +82,3 @@ Projeto realizado com o auxílio do meu orientador Mateus Guilherme Fuini
 
 
     </p>
-</body>
-</html>
