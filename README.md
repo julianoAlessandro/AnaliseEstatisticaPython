@@ -57,6 +57,7 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - Revisão e formatação do relatório. Apresentação dos resultados e conclusões do projeto.
 
 ## Ferramentas Utilizadas 🔨
+-Google Acadêmico
 - Google Docs
 - Vscode
 - Power BI
@@ -64,3 +65,4 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - Pentaho
 - GitHub
 - Linguagem de Programação Python
+- ChatGPT
