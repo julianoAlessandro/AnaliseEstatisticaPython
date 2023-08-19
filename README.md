@@ -67,3 +67,25 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - Linguagem de Programação Python
 - ChatGPT
 - Google Acadêmico
+- Google Colab
+  # Etapa1: Extração e download dos arquivos no formato CSV
+
+## Extração de Dados do site: _Estatísticas de Comércio Exterior em Dados Abertos_
+
+[Link do site](https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta)
+
+O objetivo primordial de um Engenharia de Dados é tornar os dados utilizáveis, através de um conjunto de técnicas para assim poder ser feita toda a análise de dados em cima para auxiliar na tomada de decisão. Logo, a extração de dados é a primeira etapa para todo Engenheiro. Em virtude disso, eu tive que utilizar as seguintes Bibliotecas para Extração:
+
+- **request:** Utilizada para realizar a requisição ao site para dessa forma poder capturar e gravar os dados.
+- **Pandas:** Utilizada para as consultas e leituras de dados de forma dinâmica.
+- **io:** Utilizada para lidar com diversos tipos de entradas arquivos de texto, binário e dados brutos.
+- **urllib3:** Essa biblioteca foi de fundamental utilidade no decorrer das atividades. Sempre que fazemos uma requisição ao servidor, algum tipo de erro pode acontecer no caminho impedindo assim nossa requisição. Nessa linha de pensamento, toda vez que eu fazia uma requisição ao servidor, eu era impedido de acessar o conteúdo por motivos de SSL, que tem o intuito de criptografar os dados e permitir segurança dos dados. Então, ele me impedia de pegar esses dados por segurança. No entanto, utilizando a referida biblioteca, eu pude ignorar essa chamada de atenção, conseguindo trazer os dados para o meu ambiente de desenvolvimento.
+
+### Ilustração dos códigos:
+
+![Imagem 1](https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/160762cf-2862-43ed-aab1-e5fc9366f620)
+
+![Imagem 2](https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/e0490ea3-7dcb-434e-a23f-dc4406ec6d00)
+
+
+
