@@ -87,5 +87,11 @@ O objetivo primordial de um Engenharia de Dados é tornar os dados utilizáveis,
 
 ![Imagem 2](https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/e0490ea3-7dcb-434e-a23f-dc4406ec6d00)
 
+# Etapa 2: Elaboração do Modelo Estrela ⭐
 
+Após concluir a extração de todos os dados, surge a necessidade de armazená-los de maneira estruturada e segura. Isso é fundamental para possibilitar análises estatísticas posteriormente. Diante desse cenário, optou-se pela implementação do modelo de banco de dados estrela.
 
+Esse modelo foi selecionado devido à sua capacidade de agilizar as consultas SQL. A abordagem se destaca ao utilizar uma tabela principal para centralizar todos os relacionamentos. Essa estrutura é especialmente vantajosa, uma vez que os demais relacionamentos não possuem conexões diretas entre si, mas sim apenas com a tabela de fatos.
+
+Dessa forma, o uso do modelo estrela oferece maior eficiência na realização das análises estatísticas, ao mesmo tempo que garante a integridade e segurança dos dados armazenados.
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/2b49764c-07ba-4fed-9cf0-93f1fe45d16b">
