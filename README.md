@@ -94,4 +94,4 @@ Após concluir a extração de todos os dados, surge a necessidade de armazená-
 Esse modelo foi selecionado devido à sua capacidade de agilizar as consultas SQL. A abordagem se destaca ao utilizar uma tabela principal para centralizar todos os relacionamentos. Essa estrutura é especialmente vantajosa, uma vez que os demais relacionamentos não possuem conexões diretas entre si, mas sim apenas com a tabela de fatos.
 
 Dessa forma, o uso do modelo estrela oferece maior eficiência na realização das análises estatísticas, ao mesmo tempo que garante a integridade e segurança dos dados armazenados.
-<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/2b49764c-07ba-4fed-9cf0-93f1fe45d16b">
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/1e3bdb6d-df2a-4854-9205-485e1e083cc6">
