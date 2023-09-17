@@ -95,3 +95,74 @@ Esse modelo foi selecionado devido à sua capacidade de agilizar as consultas SQ
 
 Dessa forma, o uso do modelo estrela oferece maior eficiência na realização das análises estatísticas, ao mesmo tempo que garante a integridade e segurança dos dados armazenados.
 <img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/1e3bdb6d-df2a-4854-9205-485e1e083cc6">
+
+# Etapa 3: Transformação dos Dados 🔄
+
+O processo de transformação é uma etapa fundamental para um engenheiro de dados. Tal etapa consiste em padronizar um conjunto de dados seguindo uma regra de negócio específica. No projeto apresentado, o tratamento dos arquivos CSV foi padronizado seguindo as regras envolvidas em um Banco de Dados Relacional. Nesse contexto, a ferramenta Pentaho foi de suma importância para algumas etapas de transformação dos dados, juntamente com o Banco de Dados SQL Server. Portanto, a união dessas duas ferramentas garante a consistência e integridade dos dados ao longo deste projeto.
+
+## Pentaho
+
+A incorporação do Pentaho desempenhou um papel essencial na otimização de certos processos de transformação que, de outra forma, exigiriam um extenso esforço manual no SQL Server. Assim, foi crucial estabelecer uma conexão efetiva entre essa ferramenta e o banco de dados alvo. Isso permitiu que, ao concluir a transformação, os dados fossem automaticamente integrados ao banco.
+
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/e18d72c8-5e0c-4c6f-b808-d7dab1d8c2ee" width="1000px">
+
+## Transformações
+
+No decorrer desta etapa, foram realizadas diversas transformações e limpezas nos dados, sendo as mais utilizadas:
+
+1. Ordenamento dos valores presentes nos campos.
+2. Remoção de valores duplicados.
+3. Criação de uma chave primária (PK).
+4. Mudança da tipagem dos dados.
+5. Criação das chaves estrangeiras (FK).
+6. Seleção das colunas desejadas.
+7. Granularização dos campos Dim_Data.
+8. Adição de colunas.
+9. Alteração dos nomes das tabelas.
+
+### Ordenamento dos valores presentes nos campos
+
+Para conseguir remover os dados duplicados, antes de tudo, é necessário ordenar os valores presentes no campo.
+
+### Remoção de valores duplicados e criação de chaves primárias
+
+Como estamos normalizando os dados para o Padrão Relacional, torna-se necessário um campo do tipo PK em nossa base de dados. Para garantir que um campo seja considerado PK, o mesmo tem algumas restrições que devem ser seguidas para garantir a integridade dos relacionamentos. Uma dessas restrições é que a chave não tenha valor duplicado, portanto, foi necessário fazer a retirada de valores duplicados ao longo desta tabela. Em seguida, no SQL Server, alterar o tipo do campo para PK. A seguir, serão ilustrados tais processos:
+
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/45069be9-30e3-4b3a-b54d-615991b1e096" width="1000px">
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/44056fc9-788f-44eb-9438-e22ef7ed46a2" width="1000px">
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/92c01813-0bec-46ec-8d8e-19a4e6c0c023" width="1000px">
+
+
+### Mudança da tipagem dos dados e criação de chaves estrangeiras
+
+Ao criar uma chave estrangeira para assegurar relacionamentos com tabelas de dimensões, é crucial que os dados sejam compatíveis a fim de garantir essa conexão. Em algumas situações, foi necessário ajustar a tipagem dos dados nas tabelas de dimensões para assegurar essa correspondência.
+
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/5568e5c6-0b43-411e-b9f9-9782b8e87aec" width = "1000px">
+
+### Seleção das colunas desejadas
+
+Para a criação da tabela Dim_Data, foi necessário selecionar algumas colunas desejadas, como "CO_ANO" e "CO_MES", de um arquivo CSV que possui mais de 7 campos. Logo, foi necessário excluir alguns campos e priorizar os dois campos mencionados utilizando a função `SELECT VALUES` do Pentaho. Dessa forma, o resultado foi obtido com sucesso.
+
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/099207db-3b25-4f07-bf4b-0f7e3f701898" width = "1000px">
+
+### Granularização dos campos Dim_Data
+
+O processo de granularização envolve o aumento do nível de detalhamento de uma tabela, expandindo o número de campos. Esse procedimento adquire extrema relevância em cenários de larga escala, onde auxilia as empresas na tomada de decisões fundamentais. Nesse contexto, os campos CO_ANO e CO_MES passaram por essa operação, conforme ilustrado na imagem abaixo:
+ <img src= "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/37a55bcd-0824-4dfb-9815-3fa5bbd10fb3" width="1000px">
+
+### Adição de Coluna
+
+Na construção da tabela fato, foi necessário utilizar um identificador desse campo, já que o mesmo não possuía um campo que realizava determinada ação antes de ser tratado. Com isso, o campo ID_EXPORTAÇÕES foi criado.
+
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/56a34820-4ad3-4145-94b2-543182a08e49" width = "1000px">
+
+### Alteração dos nomes das tabelas
+
+Para seguir a padronização do modelo Estrela, que consiste em ter tabelas com o sufixo "Dim" e "Fato", foi necessário alterar o nome das tabelas extraídas do site do governo. Isso foi realizado pelo Pentaho, permitindo assim enviar tal alteração para o SQL SERVER.
+
+# Etapa 4: Carregamento de Dados 💾
+
+Para garantir a organização e o armazenamento eficiente dos dados, é imperativo que eles tenham um ambiente dedicado no SQL Server. Para atender a essa necessidade, é estabelecido um DataWarehouse, que funciona como um repositório centralizado capaz de armazenar e gerenciar os dados previamente existentes no SQL Server. Isso não apenas assegura a integridade dos dados, mas também fornece uma estrutura adequada para análises e consultas estratégicas.
+
+<img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/015d375a-71ff-4069-88d0-610cd7a83df5" width = "1000px">
+
