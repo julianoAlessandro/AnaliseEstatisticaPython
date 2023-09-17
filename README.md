@@ -68,6 +68,22 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - ChatGPT
 - Google Acadêmico
 - Google Colab
+  
+  # Pipelines de Dados
+
+A função primordial de um engenheiro de dados é construir pipelines eficientes para uma empresa. Neste contexto, entendemos que os pipelines são responsáveis por transportar dados de um local para outro, realizando os devidos tratamentos durante essa passagem. Portanto, as principais etapas que serão abordadas durante este projeto são as seguintes:
+
+**Extração:**
+- Nesta etapa, os dados brutos são coletados de várias fontes para serem armazenados na área de preparação.
+
+**Transformação:**
+- Esta fase é responsável por processar os dados brutos, de modo que eles adquiram valor e contribuam para a tomada de decisões.
+
+**Carregamento:**
+- Os dados processados são finalmente direcionados para o destino final, onde podem ser utilizados por um Analista de Dados.
+
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/e7e4f090-140d-4f33-9854-4845cec6036d" >
+
   # Etapa1: Extração e download dos arquivos no formato CSV
 
 ## Extração de Dados do site: _Estatísticas de Comércio Exterior em Dados Abertos_
