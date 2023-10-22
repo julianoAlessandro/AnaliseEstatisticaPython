@@ -61,14 +61,20 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - Google Docs
 - Vscode
 - Power BI
-- Azure Studio
+- SQL Server
 - Pentaho
 - GitHub
-- Linguagem de Programação Python
 - ChatGPT
-- Google Acadêmico
 - Google Colab
-  
+- Docker;
+- Powerpoint;
+- WBS Chart Pro;
+- DBdiagram.io;
+- GanttProject;
+
+  ### Linguagem de Programação usada 👨‍💻
+  - Python
+
   # Pipelines de Dados
 
 A função primordial de um engenheiro de dados é construir pipelines eficientes para uma empresa. Neste contexto, entendemos que os pipelines são responsáveis por transportar dados de um local para outro, realizando os devidos tratamentos durante essa passagem. Portanto, as principais etapas que serão abordadas durante este projeto são as seguintes:
