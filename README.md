@@ -13,6 +13,7 @@
 - Banco de Dados
 - Estatística
 - Mineração de Dados
+- Gestão Ágil de Projetos
 
 **Objetivos:**
 O objetivo deste projeto é realizar a extração, processamento, armazenamento, análise e visualização de Dados do comércio exterior da região de Itapira, com o intuito de identificar padrões, tendências e insights relevantes para auxiliar na compreensão e tomadas de decisões estratégicas no âmbito do comércio internacional. Especificamente, busca-se:
