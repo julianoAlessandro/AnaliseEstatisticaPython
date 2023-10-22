@@ -66,11 +66,11 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - GitHub
 - ChatGPT
 - Google Colab
-- Docker;
-- Powerpoint;
-- WBS Chart Pro;
-- DBdiagram.io;
-- GanttProject;
+- Docker
+- Powerpoint
+- WBS Chart Pro
+- DBdiagram.io
+- GanttProject
 
   ### Linguagem de Programação usada 👨‍💻
   - Python
