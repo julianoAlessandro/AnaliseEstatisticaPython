@@ -10,10 +10,8 @@
 - Analista de Dados: Analisar, prever e evitar perdas usando os dados, com o intuito de auxiliar na tomada de decisão
 
 **Disciplinas Relacionadas ao Projeto:**
-- Técnicas de Programação
 - Banco de Dados
 - Estatística
-- Banco de Dados não Relacional
 - Mineração de Dados
 
 **Objetivos:**
@@ -70,10 +68,31 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - Powerpoint
 - WBS Chart Pro
 - DBdiagram.io
-- GanttProject
+  
 
   ### Linguagem de Programação usada 👨‍💻
   - Python
+
+    # Gestão Ágil de Projeto
+
+Uma das maiores dificuldades ao se iniciar um projeto do zero é conseguir definir os grupos de entrega de forma clara e objetiva, assim como definir a problemática associada a tal projeto. Nesse contexto, a área de Projetos propõe ferramentas que permitem a visualização do Projeto como um todo. Logo, tais aplicativos tornam o fluxo de trabalho mais dinâmico e a entrega ao cliente mais rápida, garantindo um maior valor na entrega.
+
+## PMCanvas
+
+Criado para permitir uma maior flexibilidade, adaptando-se a diversos contextos de empresas diferentes. Consiste em um quadro que tem as principais dúvidas no momento de construir um projeto. Com isso, esse esquema responde tais perguntas, permitindo a passagem para as próximas etapas de forma totalmente clara.
+
+<img src= "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/6df61523-a529-4683-ac81-0fb541825c49">
+
+## EAP (Estrutura Analítica do Projeto)
+
+A EAP (Estrutura Analítica do Projeto), do inglês Work Breakdown Structure (WBS), é uma subdivisão hierárquica do trabalho do projeto em partes menores, mais facilmente gerenciáveis. Seu objetivo primário é organizar o que deve ser feito para produzir as entregas do projeto.
+
+A EAP garante ao gerente de projetos a visibilidade das principais entregas, facilitando o controle de tempo e de custo.
+
+<img src= "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/d8309e7e-1ab8-44e9-8eab-54b20edce6b6">
+
+<hr>
+
 
   # Pipelines de Dados
 
