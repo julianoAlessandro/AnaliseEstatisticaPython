@@ -63,7 +63,6 @@ O objetivo deste projeto é realizar a extração, processamento, armazenamento,
 - SQL Server
 - Pentaho
 - GitHub
-- ChatGPT
 - Google Colab
 - Docker
 - Powerpoint
@@ -248,6 +247,6 @@ No presente Dashboard, podemos inferir alguns insights, sendo eles:
 
 ### ANÁLISE DESCRITIVA DO DESEMPENHO DAS EXPORTAÇÕES AO LONGO DOS ANOS
 No presente Dashboard, temos uma visão geral dos resultados obtidos, fazendo uma comparação de quais cidades da Baixa Mogiana estão exportando mais e quais países estão recebendo mais exportação e quais produtos são os mais consumidos por esses países, levando em conta um determinado intervalo de tempo.
-<img src="(https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/b0bb317d-7f16-442f-ab92-66dd4e8f7e1e">
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/b0bb317d-7f16-442f-ab92-66dd4e8f7e1e">
 
 
