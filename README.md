@@ -208,3 +208,46 @@ Para garantir a organização e o armazenamento eficiente dos dados, é imperati
 
 <img src = "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/015d375a-71ff-4069-88d0-610cd7a83df5" width = "1000px">
 
+# Etapa 5: Análise de Dados📊📈💹
+
+Por fim, alcançamos a etapa final do ciclo de vida dos dados, que é a análise. Nesta fase, nosso foco está na utilização desse vasto volume de dados para dar suporte à tomada de decisões e gerar insights nos ambientes corporativos. Para realizar essa análise, aplicaremos conhecimentos estatísticos aos nossos dados.
+
+## Análise Descritiva
+
+Toda a análise realizada durante este semestre é predominantemente de natureza descritiva. Estamos empenhados em compreender os padrões que nossos dados atuais estão revelando. Portanto, toda essa análise está centrada no momento presente.
+
+## Escolha das Cores dos Dashboards
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/aed8cf5c-d7dd-45b0-9329-b353e7462795">
+
+## Wireframe
+
+Como sabemos antes de um desenvolvedor criar o seu site, o mesmo desenha no papel na forma mais simplificada possível quais as principais funcionalidades que aquele site terá, onde os elementos estarão dispostos em uma página. Não muito distante de tal metodologia, a aplicação da criação de Dashboard segue o mesmo ciclo para a sua concepção. Abaixo estão ilustrados alguns protótipos realizados durante essa trajetória de aprendizagem.
+<img src= "https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/a98d993e-fb5c-4dd2-a12f-20f08007f6ab">
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/a33ec27d-a941-48e6-901d-af62319614f0">
+
+## Resultados Dashboards📊📈
+
+### PARTICIPAÇÃO DOS PARCEIROS COMERCIAIS POR CIDADE
+No presente Dashboard, podemos inferir alguns insights, sendo eles:
+- Quais países têm a maior participação no consumo de Mercadorias da Baixa Mogiana.
+- Quais foram os produtos mais exportados para os países.
+- Qual o maior valor que cada cidade exportou.
+- Qual a média de exportações por cidade.
+- Qual o lucro obtido por cada cidade.
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/188d9955-616a-4dc6-8070-4f4cd43bd3d3">
+
+### DESEMPENHO DOS PAÍSES FUNDADORES DO MERCOSUL
+No presente Dashboard, podemos inferir alguns insights, sendo eles:
+- Qual país presente no Mercosul mais contribui por cidade em um dado período de tempo.
+- Quais produtos são mais exportados para o Mercosul em um dado intervalo de tempo.
+- Qual é a evolução das exportações ao longo de um determinado intervalo de tempo.
+- Qual é o maior valor exportado por cidade em um dado intervalo de tempo.
+- Qual é a média das exportações por cidade em um determinado intervalo de tempo.
+- Qual é o lucro obtido por cada cidade em um determinado intervalo de tempo.
+<img src="https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/7d7d50dd-5ef8-41b8-9d80-861f8438f08a">
+
+### ANÁLISE DESCRITIVA DO DESEMPENHO DAS EXPORTAÇÕES AO LONGO DOS ANOS
+No presente Dashboard, temos uma visão geral dos resultados obtidos, fazendo uma comparação de quais cidades da Baixa Mogiana estão exportando mais e quais países estão recebendo mais exportação e quais produtos são os mais consumidos por esses países, levando em conta um determinado intervalo de tempo.
+<img src="(https://github.com/julianoAlessandro/AnaliseEstatisticaPython/assets/111141842/b0bb317d-7f16-442f-ab92-66dd4e8f7e1e">
+
+
